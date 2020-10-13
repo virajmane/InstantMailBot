@@ -1,1 +1,1 @@
-worker: python3 InstantMailBot.py
+worker: python3 InstantMail.py
