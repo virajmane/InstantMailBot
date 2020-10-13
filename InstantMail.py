@@ -44,7 +44,7 @@ def get_msg(update, context):
                                       "Message: " +url["msg1"]["textBody"])
 
 def main():
-    updater = Updater("Paste-Your-Token-Here", use_context=True)
+    updater = Updater("1148611466:AAHO4vaKdJaEdTCLircNTChAK4cm6zQX7wI", use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help_command))
