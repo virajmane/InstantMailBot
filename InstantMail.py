@@ -1,9 +1,5 @@
-#Note use your telegram bot token below.
-#You can get it from https://t.me/BotFather
-
 import logging
 import requests
-from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
